@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/myStyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/fonts.css">
+    <title>Cloud 9</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .columns {
+            float: left;
+            width: 33.3%;
+            padding: 8px;
+        }
+
+        .price {
+            list-style-type: none;
+            border: 1px solid #eee;
+            margin: 0;
+            padding: 0;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+        }
+
+        .price:hover {
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+        }
+
+        .price .header {
+            background-color: #111;
+            color: white;
+            font-size: 25px;
+        }
+
+        .price li {
+            border-bottom: 1px solid #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .price .grey {
+            background-color: #eee;
+            font-size: 20px;
+        }
+
+        .button {
+            background-color: #6750A4;
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .columns {
+                width: 100%;
+            }
+        }
+
+        .pricesimg {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 20px 20px 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Heading-->
+    <div class="container">
+        <img src="./images/cloud9.png" alt="Cloud 9 Logo" width="200" height="120">
+        <div>
+            <h1>Cloud9 Balloon Decor</h1>
+        </div>
+    </div>
+
+    <!--Navigation-->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+
+        <div class="subnav">
+            <button class="subnavbtn">Services</button>
+            <div class="subnav-content">
+                <a href="corporate.html">Corporate</a>
+                <a href="playground.html">Rental</a>
+                <a href="playground.html">Customised Ballons</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Varieties</button>
+            <div class="subnav-content">
+                <a href="themes.html">Boquets</a>
+                <a href="#/gallery">Birthday</a>
+                <a href="#/milestones">Milestones</a>
+            </div>
+        </div>
+        <a href="prices.html">Prices</a>
+
+        <a href="safety.html">Safety</a>
+        <a href="shop.html">FAQ'S</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <br><br>
+
+
+    <h2 style="text-align:center">Prices</h2>
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header">Basic combo</li>
+            <li class="grey">$ 150</li>
+            <li>Basic Bouquet</li>
+            <li>A teddy</li>
+            <li>A Heart Helium Balloon</li>
+            <li>Pick up</li>
+            <li class="grey"><a href="contact.html" class="button">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header" style="background-color:#6750A4">Pro combo</li>
+            <li class="grey">Starts from $ 399</li>
+            <li>Milestone Bouquet/Balloon Bouquet</li>
+            <li>Theme Bouquet</li>
+            <li>Balloon garland</li>
+            <li>Helium heart</li>
+            <li class="grey"><a href="contact.html" class="button">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header">Premium</li>
+            <li class="grey"> Starting from $ 1500 / party</li>
+            <li>Balloon Wall</li>
+            <li>Center Pieces</li>
+            <li>Balloon Columns</li>
+            <li>Custom Stickers on balloons</li>
+            <li class="grey"><a href="contact.html" class="button">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <p style="text-align:center"><b>Note: </b> Prices may differ for all <b>Customised orders</b></p>
+
+
+    <img class="pricesimg" src="./images/prices.jpeg" alt="Avatar" width=50% height=100%>
+
+    <footer class="footer">
+        <div class="footercontent">
+            <p style="color:white; padding:20px 0 0 40px">Contact us</p>
+            <div style="margin:2px 0 0 20px">
+                <a href="https://www.instagram.com/cloud9balloondecor/"><img class="footericon"
+                        src="./images/insta.png"></a>
+                <a href="https://www.facebook.com/profile.php?id=100086199496979"><img class="footericon"
+                        src="./images/fb.png"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

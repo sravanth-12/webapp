@@ -5,6 +5,12 @@
     <link rel="stylesheet" type="text/css" href="./stylesheets/myStyleSheet.css">
     <link rel="stylesheet" type="text/css" href="./stylesheets/fonts.css">
     <title>Cloud 9</title>
+    <style>
+        .shop {
+            padding: 4%;
+            background-color: blanchedalmond;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,47 +53,24 @@
     <br />
     <br />
 
-    <!--Gallery starts-->
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="./images/a.png">
-                <img src="./images/a.png" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Mickey</div>
-        </div>
+    <div class="shop">
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+
+            <label for="lname">Give more details below if any</label>
+            <br><br>
+            <textarea name="message" rows="10" cols="30">Enter here</textarea>
+            <br><br>
+            <button type="button" onclick="alert('Submitted')">Submit</button>
+        </form>
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="./images/b.png">
-                <img src="./images/b.png" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Balloon Garland</div>
-        </div>
-    </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="./images/c.png">
-                <img src="./images/c.png" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Balloon Garland</div>
-        </div>
-    </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="./images/d.png">
-                <img src="./images/d.png" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Balloon Garland</div>
-        </div>
-    </div>
-
-    <br />
-    <br />
-    <br />
 
 
 </body>

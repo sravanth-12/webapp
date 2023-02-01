@@ -7,8 +7,18 @@
     <title>Cloud 9</title>
 
     <style>
+        video {
+            flex-direction: row;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            width: "600";
+            height: "400";
+            margin-left: 320px;
+        }
+
         .p {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: monospace;
             font-size: small;
         }
 
@@ -70,6 +80,12 @@
             display: flex;
             justify-content: center;
         }
+
+        .link {
+            position: absolute;
+            width: 50%;
+            height: 44%;
+        }
     </style>
 </head>
 
@@ -91,20 +107,13 @@
             <button class="subnavbtn">Services</button>
             <div class="subnav-content">
                 <a href="corporate.html">Corporate</a>
-                <a href="playground.html">Rental</a>
-                <a href="playground.html">Customised Ballons</a>
+                <a href="rents.html">Rental</a>
             </div>
         </div>
-        <div class="subnav">
-            <button class="subnavbtn">Varieties</button>
-            <div class="subnav-content">
-                <a href="#/gallery">Boquets</a>
-                <a href="#/gallery">Birthday</a>
-                <a href="#/milestones">Milestones</a>
-            </div>
-        </div>
+
+        <a href="prices.html">Prices</a>
         <a href="safety.html">Safety</a>
-        <a href="sample.html">FAQ'S</a>
+        <a href="shop.html">FAQ'S</a>
         <a href="contact.html">Contact</a>
     </div>
 
@@ -115,6 +124,9 @@
     <br />
 
     <div class="introcard">
+        <a href="gallery.html">
+            <span class="link"></span>
+        </a>
         <img class="indeximg" src="./images/a.png" alt="Avatar" width="250" height="300">
         <div class="introcard_items style=" color="#191919">
             <h3 style="font-family:  cursive;"><b>Make your parties more awesome</b></h4>
@@ -127,15 +139,78 @@
     <h2>Our Services</h2>
 
     <div class="services">
-        <div class="servicecard" style="background-color: #dbe4e3; background-image:none;">
-            <img class="indeximg" src="./images/a.png" alt="Avatar" width="250" height="300">
+        <div class="servicecard" style="background-color:#9edde0; background-image:none;">
+            <img class="indeximg" src="./images/40.JPG" alt="Avatar" width="250" height="300">
             <div class="introcard_items">
-                <h3 style="font-family:  cursive;"><b>Custom Themes</b></h4>
-                    <p>Customise your party as you wish</p>
+                <h3 style="font-family:  cursive;"><b>Milestone</b></h4>
+                    <p>Celebrate with Milestone Bouquet</p>
             </div>
         </div>
 
+        <div class="servicecard" style="background-color:#e2e2e2; background-image:none; ">
+            <img class="indeximg" src="./images/50.jpg" alt="Avatar" width="250" height="300">
+            <div class="introcard_items">
+                <h3 style="font-family:  cursive;"><b>Milestone</b></h4>
+                    <p>Celebrate with Milestone Bouquet</p>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Custom Themes -->
+    <h2>Custom Themes</h2>
+
+    <div class="services">
+        <div class="servicecard" style="background-color: #A7ADB1; background-image:none;">
+            <img class="indeximg" src="./images/a.png" alt="Avatar" width="250" height="300">
+            <div class="introcard_items">
+                <h3 style="font-family:  cursive;"><b>Mickey Theme</b></h4>
+                    <!-- <p>Customise your party as you wish</p> -->
+            </div>
+        </div>
+        <div class="servicecard" style="background-color: #AFB0A0; background-image:none;">
+            <img class="indeximg" src="./images/jungle1.jpg" alt="Avatar" width="250" height="300">
+            <div class="introcard_items">
+                <h3 style="font-family:  cursive;"><b>Jungle Theme</b></h4>
+                    <p>Customise your party as you wish</p>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="services">
         <div class="servicecard" style="background-color:#9edde0; background-image:none;">
+            <img class="indeximg" src="./images/candytheme.jpg" alt="Avatar" width="250" height="300">
+            <div class="introcard_items">
+                <h3 style="font-family:  cursive; "><b>Birthday</b></h4>
+                    <ol>
+                        <li>Number Balloon Boquets</li>
+                        <li>Balloon walls</li>
+                    </ol>
+            </div>
+        </div>
+
+        <div class="servicecard" style="background-color:#FBE7C6; background-image:none; ">
+            <img class="indeximg" src="./images/smileywall.jpg" alt="Avatar" width="250" height="300">
+            <div class="introcard_items">
+                <h3 style="font-family:  cursive;"><b>Balloon Wall</b></h4>
+                    <p>Smiley theme wall</p>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="services">
+        <div class="servicecard" style="background-color:#d7e3e3; background-image:none;">
             <img class="indeximg" src="./images/b.png" alt="Avatar" width="250" height="300">
             <div class="introcard_items">
                 <h3 style="font-family:  cursive;"><b>Parties</b></h4>
@@ -155,47 +230,25 @@
         </div>
     </div>
 
-
     <br />
-    <div class="services">
-        <div class="servicecard" style="background-color: #dbe4e3; background-image:none;">
-            <img class="indeximg" src="./images/jungle1.jpg" alt="Avatar" width="250" height="300">
-            <div class="introcard_items">
-                <h3 style="font-family:  cursive;"><b>Jungle Theme</b></h4>
-                    <p>Customise your party as you wish</p>
-            </div>
-        </div>
+    <br />
 
-        <div class="servicecard" style="background-color:#9edde0; background-image:none;">
-            <img class="indeximg" src="./images/candytheme.jpg" alt="Avatar" width="250" height="300">
-            <div class="introcard_items">
-                <h3 style="font-family:  cursive; "><b>Birthday</b></h4>
-                    <ol>
-                        <li>Number Balloon Boquets</li>
-                        <li>Balloon walls</li>
-                    </ol>
-            </div>
-        </div>
-
-        <div class="servicecard" style="background-color:#e2e2e2; background-image:none; ">
-            <img class="indeximg" src="./images/smileywall.jpg" alt="Avatar" width="250" height="300">
-            <div class="introcard_items">
-                <h3 style="font-family:  cursive;"><b>Balloon Wall</b></h4>
-                    <p>Smiley theme wall</p>
-            </div>
+    <div class="introcard"
+        style="background-color:#191919; background-image:none; justify-content: center; display: flex; flex-direction: row;">
+        <div class="introcard_items" style="padding: 20%;">
+            <a href="upcoming.html"><b style="color: #9edde0;">Plan ahead for upcoming important dates</b></a>
         </div>
     </div>
 
-    <p>
-        We specialize in organic balloons artistry. Our goal is to make your event Instagram worthy creating memorable
-        moments that your friends and costumers won’t forget no matter how big or small your balloons need are.
-    </p>
-
-
     <br />
     <br />
+    <video controls>
+        <source src="./images/cloud9video.MP4" type="video/mp4">
+        <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+        Your browser does not support HTML video.
+    </video>
     <br />
-
+    <br />
     <footer class="footer">
         <div class="footercontent">
             <p style="color:white; padding:20px 0 0 40px">Contact us</p>
@@ -217,3 +270,5 @@
     bottom padding is 15px
     left padding is 20px
 -->
+
+<!-- <h3 style="font-size: 30px; font-family: fantasy; display: flex; justify-content: center;">Custom Themes</h3> -->
