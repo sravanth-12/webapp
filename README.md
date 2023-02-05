@@ -11,4 +11,4 @@
  6. Safety
  7. FAQ's
  8. Contact
- 9. Upcoming  **
+ 9. Upcoming **
