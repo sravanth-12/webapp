@@ -5,10 +5,10 @@
 ### HTML Pages in this website:
  **1. Index/Home
  2. Gallery
- 3. Contact
- 4. Prices
- 5. Upcoming
+ 3. Corporate
+ 4. Rental
+ 5. Prices
  6. Safety
- 7. Corporate
- 8. Rental
- 9. FAQ**
+ 7. FAQ's
+ 8. Contact
+ 9. Upcoming  **
