@@ -56,7 +56,7 @@ ul {
     transition: all 0.2s 0.1s ease-in-out;
     color: #fff;
     border-radius: 5px;
-    /* center overlay text */
+    /* to display overlay text in center */
     display: flex;
     align-items: center;
     justify-content: center;
