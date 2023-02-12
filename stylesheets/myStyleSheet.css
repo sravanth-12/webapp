@@ -1,4 +1,5 @@
-﻿@font-face {
+﻿/* importing a font  from fonts folder to use in HTML pages*/
+@font-face {
     font-family: 'roca-one-light';
     src: url(./fonts/roca-one-light.ttf) format('truetype');
     font-weight: normal;
@@ -23,7 +24,6 @@ body {
 
 
 /*top container for title and logo*/
-
 .container {
     display: flex;
     align-items: center;
@@ -40,6 +40,7 @@ body {
     justify-content: center;
 }
 
+/* Links style a */
 .navbar a {
     float: left;
     font-size: 16px;
@@ -53,6 +54,7 @@ body {
     overflow: hidden;
 }
 
+/* Sub navigation buttons customisation */
 .subnav .subnavbtn {
     font-size: 16px;
     border: none;
@@ -93,13 +95,9 @@ body {
     display: block;
 }
 
-
-
-
 /*Navigation Bar  ends*/
 
 /*Gallery starts*/
-
 div.gallery {
     border: 1px solid #ccc;
 }
@@ -125,13 +123,12 @@ div.desc {
 .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 24%;
 }
-
 
 @media only screen and (max-width: 700px) {
     .responsive {
-        width: 49.99999%;
+        width: 50%;
         margin: 6px 0;
     }
 }
@@ -144,7 +141,6 @@ div.desc {
 
 /*Gallery ends*/
 
-
 /*footer starts*/
 .footer {
     border-radius: 4px;
@@ -155,3 +151,5 @@ div.desc {
 .footericon {
     margin: 20px 20px 20px 20px;
 }
+
+/*footer ends*/

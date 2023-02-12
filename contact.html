@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Cloud 9</title>
+    <!-- Included  stylesheets to maintain same header and navigation style  -->
     <link rel="stylesheet" type="text/css" href="./stylesheets/myStyleSheet.css">
     <link rel="stylesheet" href="./stylesheets/fonts.css">
 
     <style>
+        /* Just normal styling for the alignmnets */
         .enquiry_wrapper {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            margin-left:10%;
+            margin-left: 10%;
         }
 
         .enquiry {
@@ -42,12 +44,15 @@
 
 <body>
     <!--Heading-->
-    <div class="container">
-        <img src="./images/cloud9.png" alt="Cloud 9 Logo" width="200" height="120">
-        <div>
-            <h1>Cloud9 Balloon Decor</h1>
+    <header>
+        <div class="container">
+            <img src="./images/cloud9.png" alt="Cloud 9 Logo" width="200" height="120">
+            <div>
+                <h1>Cloud9 Balloon Decor</h1>
+            </div>
         </div>
-    </div>
+    </header>
+
 
     <!--Navigation-->
     <div class="navbar">
@@ -58,34 +63,25 @@
             <button class="subnavbtn">Services</button>
             <div class="subnav-content">
                 <a href="corporate.html">Corporate</a>
-                <a href="playground.html">Rental</a>
-                <a href="playground.html">Customised Ballons</a>
+                <a href="rents.html">Rental</a>
             </div>
         </div>
-        <div class="subnav">
-            <button class="subnavbtn">Varieties</button>
-            <div class="subnav-content">
-                <a href="#/gallery">Boquets</a>
-                <a href="#/gallery">Birthday</a>
-                <a href="#/milestones">Milestones</a>
-            </div>
-        </div>
+
+        <a href="prices.html">Prices</a>
         <a href="safety.html">Safety</a>
-        <a href="contact.html">FAQ'S</a>
+        <a href="faq.html">FAQ'S</a>
         <a href="contact.html">Contact</a>
     </div>
 
-    <!--Enquire-->
-
     <br />
     <br />
     <br />
-
+    <!-- Embedded a google form inside the webpage -->
     <div class="enquiry_wrapper">
         <div class="enquiry">
             <div class="enquiry_items">
                 <h2>Enquiry</h2>
-                <p>Please fill the below form for Quote</p>
+                <p>Please fill the below form below for quote or directly contact on Social media</p>
             </div>
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScSwfjA8uv8LwJD084nicnIIT3IVAUWDBE6wIcjJ-zRow1vRA/viewform?embedded=true"
@@ -93,12 +89,11 @@
         </div>
     </div>
 
-
-
     <br />
     <br />
     <br />
 
+    <!--General footer-->
     <footer class="footer">
         <div class="footercontent">
             <p style="color:white; padding:20px 0 0 40px">Contact us</p>
@@ -113,10 +108,3 @@
 </body>
 
 </html>
-
-<!--padding:10px 5px 15px 20px;
-    top padding is 10px
-    right padding is 5px
-    bottom padding is 15px
-    left padding is 20px
--->
